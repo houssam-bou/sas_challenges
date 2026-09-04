@@ -1,0 +1,12 @@
+let prompt = require("prompt-sync")();
+let x1 = prompt("entrer La première position x1 = ");
+let y1 = prompt("entrer La première position y1 = ");
+let z1 = prompt("entrer La première position z1 = ");
+console.log(`Position A : (${x1}, ${y1}, ${z1})`);
+let x2 = prompt("entrer La première position x2 = ");
+let y2 = prompt("entrer La première position y2 = ");
+let z2 = prompt("entrer La première position z2 = ");
+console.log(`Position B : (${x2}, ${y2}, ${z2})`);
+//Distance = √((x2-x1)² + (y2-y1)² + (z2-z1)²);
+let Distance = ((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1) + (z2 - z1) * (z2 - z1) ) ** 0.5 ;
+console.log(`la distance = ${Distance}`);
