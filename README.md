@@ -33,15 +33,15 @@ Day 07  ░░░░░░░░░░░░░░░░░░░░ 🔒
 
 ## 📂 Challenges
 
-| Day | Topic |
-|-----|-------|
-| 01  | Variables & Conditions |
-| 02  | Loops |
-| 03  | Functions |
-| 04  | Strings |
-| 05  | Arrays |
-| 06  | Objects |
-| 07  | Alghorithms |
+| Day | Topic | Status |
+|-----|-------|--------|
+| 01  | Variables & Conditions |✅ |  
+| 02  | Loops |✅ |  
+| 03  | Functions |✅ |  
+| 04  | Strings |✅ |  
+| 05  | Arrays |✅ |
+| 06  | Objects |✅ |
+| 07  | Alghorithms |  🔒 |  
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
