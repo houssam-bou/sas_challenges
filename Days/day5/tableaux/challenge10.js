@@ -1,16 +1,15 @@
-console.log(trierTableau([2, 5, 4, 3, 9, 7]))
-function trierTableau(tab) {
-    //>=
-    let i = 0;
-    let tmp = [];
-    let len = tab.length - 1;
-    while (i <= len) {
-        if (tab[i] > tab[i + 1]) {
-            tmp = tab[i];
-            tab[i] = tab[i + 1];
-            tab[i + 1] = tmp;
+sortArray([10, 5, 4, 3, 9, 7]);
+function sortArray(tab) {
+    let swp;
+    for (let i = 0; i < tab.length; i++) {
+        for (let j = 0; j < tab.length; j++) {
+            if (tab[i] < tab[j]) {
+                swp = tab[j];
+                tab[j] = tab[i];
+                tab[i] = swp;
+                //[tab[i], tab[j]] = [tab[j], tab[i]];
+            }
         }
-        i++;
     }
-    return tab;
+    console.log(tab);
 }
